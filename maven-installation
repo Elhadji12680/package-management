@@ -48,7 +48,7 @@ now that you are sure that java is installed, you can now move
 ahead to download the maven software from the internet by running 
 the command;
 
-              sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.zip
+              sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
 
 After you have run this command, check if the maven software was downloaded by
 running the command;
@@ -346,6 +346,7 @@ echo "export MAVEN_HOME=/usr/share/maven" >> ~/.bashrc
 echo "export PATH=${M2_HOME}/bin:$PATH}" >> ~/.bashrc
 sudo hostnamectl set-hostname maven
 sudo su - ec2-user
+
 
 
 
